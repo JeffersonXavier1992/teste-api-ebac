@@ -9,6 +9,7 @@ describe('Login', () => {
             body: {
                 "email": "fulano@qa.com",
                 "password": "teste" 
+
             }
         }).then((response) => {
             expect(response.status).to.equal(200)
